@@ -14,6 +14,8 @@ def valid_move?(board, index)
     false
   else
     if index < 1 || index > 9
+      false
+    else true
   end
 end
 
