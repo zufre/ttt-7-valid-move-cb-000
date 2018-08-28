@@ -7,7 +7,7 @@ def position_taken?(board, index)
   elsif boardPos === "X" || boardPos === "O"
     true
   end
-end 
+end
 
 def valid_move?(board, index)
   if position_taken?(board, index)
